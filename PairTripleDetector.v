@@ -15,7 +15,7 @@ module PairTripleDetector
   or ( w,   in0, in1 );
   and( x,   in0, in1 );
   and( y,   w,   in2 );
-  nor( out, y,   x   );
+  or ( out, y,   x   );
 
 endmodule
 

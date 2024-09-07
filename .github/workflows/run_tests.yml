@@ -40,7 +40,7 @@ jobs:
       - name: Check iverilog
         run: |
           which iverilog
-          iverilog -v
+          iverilog -V
 
       - name: Install dependencies
         run: |
